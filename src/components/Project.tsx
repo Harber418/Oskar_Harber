@@ -11,6 +11,9 @@ import mock09 from '../assets/images/mock09.png';
 import mock10 from '../assets/images/mock10.png';
 import project1 from '../assets/images/animation_task__.gif';
 import project2 from '../assets/images/ising_plots_g.png';
+import silicon from '../assets/images/cominedfigure.png';
+import ice from '../assets/images/common_tangent_vdw.png';
+import mol from '../assets/images/AIASSE.png';
 import '../assets/styles/Project.scss';
 
 function Project() {
@@ -24,9 +27,9 @@ function Project() {
                 <p>Using 2D gird it was possible to simulate the spontaious nucleation of phase separation as well as spimodal decomposition</p>
             </div>
             <div className="project">
-                <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><img src={mock09} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><h2>High Speed Chase</h2></a>
-                <p>Designed, developed, and launched a 3D multiplayer racing game with C# and Unity. This is available on Itch.io for gamers worldwide to enjoy.</p>
+                <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><img src={silicon} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><h2>phonon density of states</h2></a>
+                <p>Using Quantum espresso I simulated a sample so silicon and used this to produce the band structre and desity of sates for the phonon modes.</p>
             </div>
             <div className="project">
                 <a href="https://yujisatojr.itch.io/spacecraft" target="_blank" rel="noreferrer"><img src={project2} className="zoom" alt="thumbnail" width="100%"/></a>
@@ -34,14 +37,14 @@ function Project() {
                 <p>Using the Ising model I was able to study phase transitions of a magnetic system based of a canoncial ensamble.</p>
             </div>
             <div className="project">
-                <a href="https://www.datumlearn.com/" target="_blank" rel="noreferrer"><img src={mock07} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://www.datumlearn.com/" target="_blank" rel="noreferrer"><h2>Datum: Integrated Learning Platform</h2></a>
-                <p>This is an online educational platform that provides high-quality, data science-focused learning resources in the Japanese language. I created the entire platform from scratch using Ruby on Rails.</p>
+                <a href="https://www.datumlearn.com/" target="_blank" rel="noreferrer"><img src={ice} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://www.datumlearn.com/" target="_blank" rel="noreferrer"><h2>Ice I, II and VIII</h2></a>
+                <p>Simulating ice in different configurationas and using a vinet EOS gave me fits that i could use the common tanget method to find transition presures between the states with results within 1% of literaute values.</p>
             </div>
             <div className="project">
-                <a href="http://www.wemanage.jp/" target="_blank" rel="noreferrer"><img src={mock06} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="http://www.wemanage.jp/" target="_blank" rel="noreferrer"><h2>WeManage: Real Estate Asset Management</h2></a>
-                <p>This mobile application allows realtors in Japan to securely manage their property information and view future income predictions. This app is built with Ruby on Rails and JavaScript.</p>
+                <a href="http://www.wemanage.jp/" target="_blank" rel="noreferrer"><img src={mol} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="http://www.wemanage.jp/" target="_blank" rel="noreferrer"><h2>Aiasee Molecule Libary </h2></a>
+                <p>I worked with Cip Pruteanu and Ayobami Daramola on there DFT hybrid software producing a moldecule libary for other reasurchers to use.</p>
             </div>
             <div className="project">
                 <a href="https://www.byuh.edu/covid-19-case-management" target="_blank" rel="noreferrer"><img src={mock05} className="zoom" alt="thumbnail" width="100%"/></a>
