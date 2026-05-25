@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Oskar_Harber/static/css/main.28d2eddf.css",
-    "main.js": "/Oskar_Harber/static/js/main.6eb437a7.js",
+    "main.js": "/Oskar_Harber/static/js/main.efc1e1d9.js",
     "static/js/453.b05d8aa5.chunk.js": "/Oskar_Harber/static/js/453.b05d8aa5.chunk.js",
     "static/media/IMG_8350.jpeg": "/Oskar_Harber/static/media/IMG_8350.9c8dada489723e3ec050.jpeg",
     "static/media/animation_task__.gif": "/Oskar_Harber/static/media/animation_task__.596a17ac5dfa7dde369b.gif",
@@ -14,11 +14,11 @@
     "static/media/common_tangent_vdw.png": "/Oskar_Harber/static/media/common_tangent_vdw.955f9a6b4e10aad2cabc.png",
     "index.html": "/Oskar_Harber/index.html",
     "main.28d2eddf.css.map": "/Oskar_Harber/static/css/main.28d2eddf.css.map",
-    "main.6eb437a7.js.map": "/Oskar_Harber/static/js/main.6eb437a7.js.map",
+    "main.efc1e1d9.js.map": "/Oskar_Harber/static/js/main.efc1e1d9.js.map",
     "453.b05d8aa5.chunk.js.map": "/Oskar_Harber/static/js/453.b05d8aa5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.28d2eddf.css",
-    "static/js/main.6eb437a7.js"
+    "static/js/main.efc1e1d9.js"
   ]
 }
