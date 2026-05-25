@@ -14,6 +14,8 @@ import project2 from '../assets/images/ising_plots_g.png';
 import silicon from '../assets/images/cominedfigure.png';
 import ice from '../assets/images/common_tangent_vdw.png';
 import mol from '../assets/images/AIASSE.png';
+import hpc from '../assets/images/hpc.jpeg';
+import shp from '../assets/images/localpsi6.png';
 import '../assets/styles/Project.scss';
 
 function Project() {
@@ -22,13 +24,13 @@ function Project() {
         <h1>Personal Projects</h1>
         <div className="projects-grid">
             <div className="project">
-                <a href="https://www.filmate.club/" target="_blank" rel="noreferrer"><img src={project1} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://www.filmate.club/" target="_blank" rel="noreferrer"><h2>Cahn-Hilliard equaiton</h2></a>
+                <a href="https://github.com/Harber418" target="_blank" rel="noreferrer"><img src={project1} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://github.com/Harber418" target="_blank" rel="noreferrer"><h2>Cahn-Hilliard equaiton</h2></a>
                 <p>Using 2D gird it was possible to simulate the spontaious nucleation of phase separation as well as spimodal decomposition</p>
             </div>
             <div className="project">
-                <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><img src={silicon} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><h2>phonon density of states</h2></a>
+                <a href="https://github.com/Harber418/Electronic-structure-theory" target="_blank" rel="noreferrer"><img src={silicon} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://github.com/Harber418/Electronic-structure-theory" target="_blank" rel="noreferrer"><h2>phonon density of states</h2></a>
                 <p>Using Quantum espresso I simulated a sample so silicon and used this to produce the band structre and desity of sates for the phonon modes.</p>
             </div>
             <div className="project">
@@ -37,39 +39,24 @@ function Project() {
                 <p>Using the Ising model I was able to study phase transitions of a magnetic system based of a canoncial ensamble.</p>
             </div>
             <div className="project">
-                <a href="https://www.datumlearn.com/" target="_blank" rel="noreferrer"><img src={ice} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://www.datumlearn.com/" target="_blank" rel="noreferrer"><h2>Ice I, II and VIII</h2></a>
+                <a href="https://github.com/Harber418/Electronic-structure-theory" target="_blank" rel="noreferrer"><img src={ice} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://github.com/Harber418/Electronic-structure-theory" target="_blank" rel="noreferrer"><h2>Ice I, II and VIII</h2></a>
                 <p>Simulating ice in different configurationas and using a vinet EOS gave me fits that i could use the common tanget method to find transition presures between the states with results within 1% of literaute values.</p>
             </div>
             <div className="project">
-                <a href="http://www.wemanage.jp/" target="_blank" rel="noreferrer"><img src={mol} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="http://www.wemanage.jp/" target="_blank" rel="noreferrer"><h2>Aiasee Molecule Libary </h2></a>
-                <p>I worked with Cip Pruteanu and Ayobami Daramola on there DFT hybrid software producing a moldecule libary for other reasurchers to use.</p>
+                <a href="https://lnkd.in/et4WuHVK" target="_blank" rel="noreferrer"><img src={mol} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://lnkd.in/et4WuHVK" target="_blank" rel="noreferrer"><h2>Aiasee Molecule Libary </h2></a>
+                <p>During my 8 week internship for Cip Pruteanu and Ayobami Daramola I worked on their novel DFT hybrid software producing a moldecule libary for other reasurchers to use.</p>
             </div>
             <div className="project">
-                <a href="https://www.byuh.edu/covid-19-case-management" target="_blank" rel="noreferrer"><img src={mock05} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://www.byuh.edu/covid-19-case-management" target="_blank" rel="noreferrer"><h2>COVID-19 Case Management</h2></a>
-                <p>Built official charts for COVID/vaccination tracking for an educational institution using JavaScript and the Google Sheets API v4. The dashboard served the university's leadership in their decision-making processes.</p>
+                <a href="https://www.epcc.ed.ac.uk/whats-happening/articles/2026-epcc-summer-school-high-performance-computing-apply-now" target="_blank" rel="noreferrer"><img src={hpc} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://www.epcc.ed.ac.uk/whats-happening/articles/2026-epcc-summer-school-high-performance-computing-apply-now" target="_blank" rel="noreferrer"><h2>EPCC Summer school</h2></a>
+                <p>I was accepted to join the EPCC HPC summer school where I will learn how to write parallelize code for Archer 2 and other super computing clusters.</p>
             </div>
             <div className="project">
-                <a href="https://github.com/yujisatojr/multi-reg-analysis" target="_blank" rel="noreferrer"><img src={mock04} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://github.com/yujisatojr/multi-reg-analysis" target="_blank" rel="noreferrer"><h2>Multiple Regression Property Analysis</h2></a>
-                <p>Analyzed the real estate market in Japan and predicted property prices by implementing statistical methods such as OLS and multi-regression analysis. This project leveraged Python and various libraries such as Pandas, NumPy, Matplotlib, and Scikit-Learn.</p>
-            </div>
-            <div className="project">
-                <a href="https://holokai.byuh.edu/programs-of-study" target="_blank" rel="noreferrer"><img src={mock03} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://holokai.byuh.edu/programs-of-study" target="_blank" rel="noreferrer"><h2>Programs of Study</h2></a>
-                <p>Designed and developed a custom component for a CMS-based platform (e.g., 'Brightspot') using Java, Handlebars, and LESS. University students can find their majors of interest through this module.</p>
-            </div>
-            <div className="project">
-                <a href="https://hookele.byuh.edu/transfer-evaluation-guidelines-and-matrix" target="_blank" rel="noreferrer"><img src={mock02} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://hookele.byuh.edu/transfer-evaluation-guidelines-and-matrix" target="_blank" rel="noreferrer"><h2>Transfer Evaluation Matrix</h2></a>
-                <p>Created an interactive CSV table generator with Java, Handlebars, and LESS. This project helps transfer students to quickly identify eligible credits.</p>
-            </div>
-            <div className="project">
-                <a href="https://github.com/yujisatojr/submeowrine" target="_blank" rel="noreferrer"><img src={mock01} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://github.com/yujisatojr/submeowrine" target="_blank" rel="noreferrer"><h2>Submeowrine</h2></a>
-                <p>Developed and released an Android mobile application using Java and Android Studio that runs a 2D shooting game.</p>
+                <a href="https://github.com/Harber418/simulating-the-effects-of-imperfections-on-crystalisation" target="_blank" rel="noreferrer"><img src={shp} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://github.com/Harber418/simulating-the-effects-of-imperfections-on-crystalisation" target="_blank" rel="noreferrer"><h2>A study of Polydispersity of crystal quality.</h2></a>
+                <p>Working for my seniour houners project I investegated the variance in size for colloidal particles affect the overall structure of the crystal. I used LAMMPS to model the 2D system and discovered a 8% drop due to the porduction of grain boundarys.</p>
             </div>
         </div>
     </div>
