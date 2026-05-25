@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Oskar_Harber/static/css/main.77698d19.css",
+    "main.js": "/Oskar_Harber/static/js/main.16bea38e.js",
+    "static/js/453.b05d8aa5.chunk.js": "/Oskar_Harber/static/js/453.b05d8aa5.chunk.js",
+    "static/media/IMG_8350.jpeg": "/Oskar_Harber/static/media/IMG_8350.9c8dada489723e3ec050.jpeg",
+    "static/media/animation_task__.gif": "/Oskar_Harber/static/media/animation_task__.596a17ac5dfa7dde369b.gif",
+    "static/media/bg-light.png": "/Oskar_Harber/static/media/bg-light.bac0efb485244a522981.png",
+    "static/media/bg-dark.png": "/Oskar_Harber/static/media/bg-dark.f420c6b8458af72de935.png",
+    "static/media/localpsi6.png": "/Oskar_Harber/static/media/localpsi6.947f061af3135d67767a.png",
+    "static/media/ising_plots_g.png": "/Oskar_Harber/static/media/ising_plots_g.4dab12f1ac0d02bc5ca7.png",
+    "static/media/cominedfigure.png": "/Oskar_Harber/static/media/cominedfigure.d44a88a7eac3dd0610cd.png",
+    "static/media/AIASSE.png": "/Oskar_Harber/static/media/AIASSE.b3543115550fba4c022f.png",
+    "static/media/common_tangent_vdw.png": "/Oskar_Harber/static/media/common_tangent_vdw.955f9a6b4e10aad2cabc.png",
+    "index.html": "/Oskar_Harber/index.html",
+    "main.77698d19.css.map": "/Oskar_Harber/static/css/main.77698d19.css.map",
+    "main.16bea38e.js.map": "/Oskar_Harber/static/js/main.16bea38e.js.map",
+    "453.b05d8aa5.chunk.js.map": "/Oskar_Harber/static/js/453.b05d8aa5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.77698d19.css",
+    "static/js/main.16bea38e.js"
+  ]
+}
