@@ -9,9 +9,10 @@ import '../assets/styles/Expertise.scss';
 const labelsFirst = [
     "Python",
     "Lammps",
+    "Lennard Johns Potential",
     "Aiasse",
-    "Davide Marenduzo",
-    "Job thisstle",
+    "Davide Marenduzzo",
+    "Job Thijssen",
     "SHP"
 ];
 
@@ -22,13 +23,13 @@ const labelsSecond = [
     "band structres/ DOS",
     "EOS for Ice I, II and VIII",
     "Linux",
-    "Elton santos"
+    "Elton Santos"
 ];
 
 const labelsThird = [
     "Python",
-    "MVP",
-    "tyler shedrik",
+    "Moddeling and Visualisation",
+    "Tyler Shendruk",
     "Ising/Pots model",
     "SIRS model",
     "Cahn-hilliard",
@@ -42,9 +43,9 @@ function Expertise() {
             <h1>Expertise</h1>
             <div className="skills-grid">
                 <div className="skill">
-                    <FontAwesomeIcon icon={faAtom} size="3x"/>
+                    <FontAwesomeIcon icon={faMicroscope} size="3x"/>
                     <h3>Molecular Dynamics</h3>
-                    <p>I have worked with LAMMPS to run simulations for calloidal systems.</p>
+                    <p>I have worked with LAMMPS to simulate 2D colloidal systems, specifically looking at the effects fo polydispersity on the quality of the overall crystal. </p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsFirst.map((label, index) => (
@@ -54,7 +55,7 @@ function Expertise() {
                 </div>
 
                 <div className="skill">
-                    <FontAwesomeIcon icon={faMicroscope} size="3x"/>
+                    <FontAwesomeIcon icon={faAtom} size="3x"/>
                     <h3>Density Funtional Theory</h3>
                     <p>Useing Quantum espresso I have performed a meriad of dft calculations on archer 2, from the phases of ice to band gaps of quartz and tin. </p>
                     <div className="flex-chips">
@@ -68,7 +69,7 @@ function Expertise() {
                 <div className="skill">
                     <FontAwesomeIcon icon={faPython} size="3x"/>
                     <h3>Moddeling systems from sctrach</h3>
-                    <p>Using python I have moddeled systems from the Ising model to the cahn-hilliard equation.</p>
+                    <p>Using python I have moddeled systems from the Ising model to the cahn-hilliard equation to study phase transitions and emergent phenomena using 2D grid models. </p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsThird.map((label, index) => (
