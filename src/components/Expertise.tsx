@@ -47,7 +47,7 @@ function Expertise() {
                     <h3>Molecular Dynamics</h3>
                     <p>I have worked with LAMMPS to simulate 2D colloidal systems, specifically looking at the effects fo polydispersity on the quality of the overall crystal. </p>
                     <div className="flex-chips">
-                        <span className="chip-title">Tech stack:</span>
+                        <span className="chip-title">Highlights:</span>
                         {labelsFirst.map((label, index) => (
                             <Chip key={index} className='chip' label={label} />
                         ))}
@@ -59,7 +59,7 @@ function Expertise() {
                     <h3>Density Funtional Theory</h3>
                     <p>Useing Quantum espresso I have performed a meriad of dft calculations on archer 2, from the phases of ice to band gaps of quartz and tin. </p>
                     <div className="flex-chips">
-                        <span className="chip-title">Tech stack:</span>
+                        <span className="chip-title">Highlights:</span>
                         {labelsSecond.map((label, index) => (
                             <Chip key={index} className='chip' label={label} />
                         ))}
@@ -71,7 +71,7 @@ function Expertise() {
                     <h3>Moddeling systems from sctrach</h3>
                     <p>Using python I have moddeled systems from the Ising model to the cahn-hilliard equation to study phase transitions and emergent phenomena using 2D grid models. </p>
                     <div className="flex-chips">
-                        <span className="chip-title">Tech stack:</span>
+                        <span className="chip-title">Highlights:</span>
                         {labelsThird.map((label, index) => (
                             <Chip key={index} className='chip' label={label} />
                         ))}

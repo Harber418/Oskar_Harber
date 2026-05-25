@@ -12,7 +12,7 @@ import '../assets/styles/Project.scss';
 function Project() {
     return(
     <div className="projects-container" id="projects">
-        <h1>Personal Projects</h1>
+        <h1>Recent Reasurch</h1>
         <div className="projects-grid">
             <div className="project">
                 <a href="https://github.com/Harber418" target="_blank" rel="noreferrer"><img src={project1} className="zoom" alt="thumbnail" width="100%"/></a>
