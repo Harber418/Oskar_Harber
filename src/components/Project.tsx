@@ -47,7 +47,7 @@ function Project() {
             <div className="project">
                 <a href="https://github.com/Harber418/simulating-the-effects-of-imperfections-on-crystalisation" target="_blank" rel="noreferrer"><img src={shp} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="https://github.com/Harber418/simulating-the-effects-of-imperfections-on-crystalisation" target="_blank" rel="noreferrer"><h2>A study of Polydispersity of crystal quality.</h2></a>
-                <p>Working for my seniour houners project I investegated the variance in size for colloidal particles affect the overall structure of the crystal. I used LAMMPS to model the 2D system and discovered a 8% drop due to the porduction of grain boundarys.</p>
+                <p>Working for my seniour houners project I investegated the variance in size for colloidal particles affect the overall structure of the crystal. I used LAMMPS to model the 2D system and discovered a 8% drop due to the production of grain boundarys.</p>
             </div>
         </div>
     </div>
