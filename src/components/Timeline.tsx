@@ -23,7 +23,7 @@ function Timeline() {
             <h3 className="vertical-timeline-element-title">Masters student</h3>
             <h4 className="vertical-timeline-element-subtitle">University of Edinburgh</h4>
             <p>
-              Currently In my masters year reasurching soft matter though the lens of DFT, With courses in computational plasma physics and machine learning.
+              Currently In my masters year researching soft matter through the lens of DFT, With courses in computational plasma physics and machine learning.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -35,7 +35,7 @@ function Timeline() {
             <h3 className="vertical-timeline-element-title">Undergraduate student</h3>
             <h4 className="vertical-timeline-element-subtitle">Edinburgh</h4>
             <p>
-              Building my foundational knowlage and where i decided to hone in on computational soft matter physics.
+              Building my foundational knowledge and where I decided to hone in on computational soft matter physics.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -44,10 +44,10 @@ function Timeline() {
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Volleyball Player</h3>
-            <h4 className="vertical-timeline-element-subtitle">Edinbrugh</h4>
+            <h3 className="vertical-timeline-element-title">Volleyball President</h3>
+            <h4 className="vertical-timeline-element-subtitle">Edinburgh</h4>
             <p>
-              Presidnet, coach, captain and player for the Univeristy Volleyball club. 
+              President, coach, captain and player for the Univeristy Volleyball club. 
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -59,7 +59,7 @@ function Timeline() {
             <h3 className="vertical-timeline-element-title">A child</h3>
             <h4 className="vertical-timeline-element-subtitle">London</h4>
             <p>
-              I grew up in North London attening a public school.
+              I grew up in North London attending a state school.
             </p>
           </VerticalTimelineElement>
         </VerticalTimeline>

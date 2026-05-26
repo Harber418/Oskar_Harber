@@ -17,7 +17,7 @@ function Project() {
             <div className="project">
                 <a href="https://github.com/Harber418" target="_blank" rel="noreferrer"><img src={project1} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="https://github.com/Harber418" target="_blank" rel="noreferrer"><h2>Cahn-Hilliard equaiton</h2></a>
-                <p>Using 2D gird it was possible to simulate the spontaious nucleation of phase separation as well as spimodal decomposition</p>
+                <p>Using 2D grid it was possible to simulate the spontaneous nucleation of phase separation as well as spinodal decomposition</p>
             </div>
             <div className="project">
                 <a href="https://github.com/Harber418/Electronic-structure-theory" target="_blank" rel="noreferrer"><img src={silicon} className="zoom" alt="thumbnail" width="100%"/></a>
@@ -27,7 +27,7 @@ function Project() {
             <div className="project">
                 <a href="https://github.com/Harber418" target="_blank" rel="noreferrer"><img src={project2} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="https://github.com/Harber418" target="_blank" rel="noreferrer"><h2>Ising Model</h2></a>
-                <p>Using the Ising model I was able to study phase transitions of a magnetic system based of a canoncial ensamble.</p>
+                <p>Using the Ising model I was able to study phase transitions of a magnetic system based of a canonical ensemble.</p>
             </div>
             <div className="project">
                 <a href="https://github.com/Harber418/Electronic-structure-theory" target="_blank" rel="noreferrer"><img src={ice} className="zoom" alt="thumbnail" width="100%"/></a>
