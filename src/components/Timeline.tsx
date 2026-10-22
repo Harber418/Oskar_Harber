@@ -23,7 +23,7 @@ function Timeline() {
             <h3 className="vertical-timeline-element-title">Masters student</h3>
             <h4 className="vertical-timeline-element-subtitle">University of Edinburgh</h4>
             <p>
-              Currently In my masters year researching soft matter through the lens of DFT, With courses in computational plasma physics and machine learning.
+              I am currently In my masters year researching star polymer systems through the lens of DDFT, With courses in computational plasma physics and machine learning.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -35,7 +35,7 @@ function Timeline() {
             <h3 className="vertical-timeline-element-title">Undergraduate student</h3>
             <h4 className="vertical-timeline-element-subtitle">Edinburgh</h4>
             <p>
-              Building my foundational knowledge and where I decided to hone in on computational soft matter physics.
+              Building my foundational knowledge and where I decided to hone in on computational condensed matter physics.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement

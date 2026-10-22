@@ -11,25 +11,26 @@ const labelsFirst = [
     "Lammps",
     "Lennard Johns Potential",
     "Aiasse",
-    "Davide Marenduzzo",
-    "Job Thijssen",
+    "Prof. D Marenduzzo",
+    "Dr. J Thijssen",
     "SHP"
 ];
 
 const labelsSecond = [
+    "DDFT",
     "Quantum Espresso",
+    "C++",
     "HPS",
     "Solid state physics",
     "band structres/ DOS",
     "EOS for Ice I, II and VIII",
-    "Linux",
-    "Elton Santos"
+    "Linux"
 ];
 
 const labelsThird = [
     "Python",
     "Moddeling and Visualisation",
-    "Tyler Shendruk",
+    "Dr. T Shendruk",
     "Ising/Pots model",
     "SIRS model",
     "Cahn-hilliard",
@@ -57,7 +58,7 @@ function Expertise() {
                 <div className="skill">
                     <FontAwesomeIcon icon={faAtom} size="3x"/>
                     <h3>Density Funtional Theory</h3>
-                    <p>Useing Quantum espresso I have performed a meriad of dft calculations on archer 2, from the phases of ice to band gaps of quartz and tin. </p>
+                    <p>I have written my own Dynamic Denisty Functional Theory simulation to study soft systems, in addition to extensive experiense performing DFT simulations for 'hard' condensed systems. </p>
                     <div className="flex-chips">
                         <span className="chip-title">Highlights:</span>
                         {labelsSecond.map((label, index) => (
@@ -69,7 +70,7 @@ function Expertise() {
                 <div className="skill">
                     <FontAwesomeIcon icon={faPython} size="3x"/>
                     <h3>Moddeling systems from sctrach</h3>
-                    <p>Using python I have moddeled systems from the Ising model to the cahn-hilliard equation to study phase transitions and emergent phenomena using 2D grid models. </p>
+                    <p>I have develpoed simulations for a miriad of systems ranging from the Ising model to the cahn-hilliard equation mainly using monte carlo techneiques. </p>
                     <div className="flex-chips">
                         <span className="chip-title">Highlights:</span>
                         {labelsThird.map((label, index) => (
