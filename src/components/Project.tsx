@@ -55,12 +55,12 @@ function Project() {
             <div className="project">
                 <a href="https://lnkd.in/et4WuHVK" target="_blank" rel="noreferrer"><img src={mol} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="https://lnkd.in/et4WuHVK" target="_blank" rel="noreferrer"><h2>Aiasee Molecule Libary </h2></a>
-                <p>During my 8 week internship for Cip Pruteanu and Ayobami Daramola I worked on their novel DFT hybrid software producing a moldecule libary for other reasurchers to use.</p>
+                <p>During my 8 week internship with Dr. Cip Pruteanu and Dr. Ayobami Daramola I was trained on their novel DFT hybrid software producing a moldecule libary for other reasurchers to use.</p>
             </div>
             <div className="project">
                 <a href="https://www.instagram.com/harber_film/" target="_blank" rel="noreferrer"><img src={film} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="https://www.instagram.com/harber_film/" target="_blank" rel="noreferrer"><h2>Film Photography</h2></a>
-                <p>I was introduced to film photography by my lovely girlfriend and have now been shooting film for years. If you are interested you can see my work by clicking the pic.</p>
+                <p>I was first introduced to film photography by my lovely girlfriend some years ago now and I've been shooting film ever since. I find the process completely magical! If you are interested you can see my work by clicking the pic.</p>
             </div>
         </div>
     </div>

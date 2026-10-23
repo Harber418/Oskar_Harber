@@ -20,10 +20,10 @@ const labelsSecond = [
     "DDFT",
     "Quantum Espresso",
     "C++",
+    "Prof. A Archer",
     "HPS",
     "Solid state physics",
     "band structres/ DOS",
-    "EOS for Ice I, II and VIII",
     "Linux"
 ];
 
