@@ -8,8 +8,8 @@ import mol from '../assets/images/AIASSE.png';
 import hpc from '../assets/images/hpc.jpeg';
 import shp from '../assets/images/localpsi6.png';
 import SHP from '../assets/images/production_positions_psi6_phase.png';
-import mphys from '../assets/images/Structure_factor_C++.mp4';
-import film from '../assets/images/film.jpg'
+import mphys from '../assets/images/density.gif';
+import film from '../assets/images/film.jpg';
 import '../assets/styles/Project.scss';
 
 function Project() {
